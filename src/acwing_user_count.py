@@ -3,7 +3,7 @@ from datetime import datetime
 
 import requests
 
-l, r = 0, 10 ** 7
+l, r = 470000, 7 * 10 ** 5
 while l < r:
     mid = l + r + 1 >> 1
     url = 'https://www.acwing.com/user/myspace/index/' + str(mid)
